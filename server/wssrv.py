@@ -18,7 +18,7 @@ class MainHandler(tornado.web.RequestHandler):
 
 class rooms(object):
     def __init__(self, *args, **kwargs):
-        self.connections = []
+
 
     def add_connection(self,obj):
         if not (obj in self.connections): 
